@@ -1,0 +1,5 @@
+# Laravel Cloud Local - Binary Checksums
+# Verify with: sha256sum -c checksums.txt
+# Generated on: 2025-09-08T18:06:17+00:00
+
+# No binaries available yet - checksums will be added on releases
