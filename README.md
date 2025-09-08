@@ -6,6 +6,7 @@
   ### 🚀 Laravel Cloud on your machine in 60 seconds
   
   [![GitHub Release](https://img.shields.io/github/v/release/RianMorningstar/laravel-cloud-local-releases?style=flat-square)](https://github.com/RianMorningstar/laravel-cloud-local-releases/releases)
+  [![Security](https://img.shields.io/badge/Security-Verified-success?style=flat-square)](SECURITY.md)
   [![License](https://img.shields.io/github/license/RianMorningstar/laravel-cloud-local-releases?style=flat-square)](LICENSE)
   [![Downloads](https://img.shields.io/github/downloads/RianMorningstar/laravel-cloud-local-releases/total?style=flat-square)](https://github.com/RianMorningstar/laravel-cloud-local-releases/releases)
   [![GitHub Stars](https://img.shields.io/github/stars/RianMorningstar/laravel-cloud-local-releases?style=flat-square)](https://github.com/RianMorningstar/laravel-cloud-local-releases/stargazers)
@@ -494,16 +495,21 @@ While this repository contains only the binary releases, we welcome contribution
 - **Documentation**: [Edit the wiki](https://github.com/RianMorningstar/laravel-cloud-local-releases/wiki)
 - **Feature Requests**: [Create an issue](https://github.com/RianMorningstar/laravel-cloud-local-releases/issues/new)
 
-## 🛡️ Security
+## 🛡️ Security & Trust
 
-### Reporting Security Issues
+LCL prioritizes security and transparency. While our source code is proprietary, we maintain rigorous security standards:
 
-Please report security vulnerabilities to security@lcl.dev. Do not create public issues for security problems.
+### Security Measures
 
-### Checksums
+- **Binary Scanning**: All releases undergo automated vulnerability scanning
+- **Code Signing**: Binaries are cryptographically signed for integrity
+- **No Telemetry**: Zero data collection or external tracking
+- **Local-Only**: All operations run entirely on your machine
+- **Regular Audits**: Quarterly security assessments
 
-All releases include SHA256 checksums for verification:
+### Verification
 
+#### Checksum Verification
 ```bash
 # Download checksum file
 wget https://github.com/RianMorningstar/laravel-cloud-local-releases/releases/latest/download/checksums.txt
@@ -511,6 +517,29 @@ wget https://github.com/RianMorningstar/laravel-cloud-local-releases/releases/la
 # Verify your download
 sha256sum -c checksums.txt
 ```
+
+#### GPG Signature Verification (Coming Soon)
+```bash
+# Import our public key
+curl -fsSL https://raw.githubusercontent.com/RianMorningstar/laravel-cloud-local-releases/main/lcl-public.key | gpg --import
+
+# Verify the binary
+gpg --verify lcl.sig lcl
+```
+
+### Security Policy
+
+For our complete security policy, vulnerability disclosure process, and security practices, see [SECURITY.md](SECURITY.md).
+
+### Reporting Security Issues
+
+**DO NOT** create public issues for security vulnerabilities. Please email security@laravel-cloud-local.dev with:
+- Description of the vulnerability
+- Steps to reproduce
+- Potential impact
+- Suggested fix (if any)
+
+We respond to security reports within 24-48 hours.
 
 ## 📝 License
 
