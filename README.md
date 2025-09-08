@@ -9,7 +9,6 @@
   [![License](https://img.shields.io/github/license/RianMorningstar/laravel-cloud-local-releases?style=flat-square)](LICENSE)
   [![Downloads](https://img.shields.io/github/downloads/RianMorningstar/laravel-cloud-local-releases/total?style=flat-square)](https://github.com/RianMorningstar/laravel-cloud-local-releases/releases)
   [![GitHub Stars](https://img.shields.io/github/stars/RianMorningstar/laravel-cloud-local-releases?style=flat-square)](https://github.com/RianMorningstar/laravel-cloud-local-releases/stargazers)
-  [![Discord](https://img.shields.io/discord/1234567890?style=flat-square&logo=discord&label=Discord)](https://discord.gg/laravel-cloud-local)
   [![Documentation](https://img.shields.io/badge/docs-wiki-blue?style=flat-square)](https://github.com/RianMorningstar/laravel-cloud-local-releases/wiki)
   
   **Zero-configuration local development environment that perfectly mirrors Laravel Cloud**
@@ -460,15 +459,9 @@ Check the [Releases page](https://github.com/RianMorningstar/laravel-cloud-local
 <table>
 <tr>
 <td align="center">
-  <a href="https://discord.gg/laravel-cloud-local">
-    <img src="https://img.shields.io/badge/Discord-5865F2?logo=discord&logoColor=white" alt="Discord" height="30">
-    <br>Join Discord
-  </a>
-</td>
-<td align="center">
-  <a href="https://github.com/RianMorningstar/laravel-cloud-local-releases/discussions">
-    <img src="https://img.shields.io/badge/GitHub-Discussions-181717?logo=github" alt="Discussions" height="30">
-    <br>Discussions
+  <a href="https://github.com/RianMorningstar/laravel-cloud-local-releases/issues">
+    <img src="https://img.shields.io/badge/GitHub-Issues-181717?logo=github" alt="Issues" height="30">
+    <br>Report Issues
   </a>
 </td>
 <td align="center">
@@ -478,9 +471,9 @@ Check the [Releases page](https://github.com/RianMorningstar/laravel-cloud-local
   </a>
 </td>
 <td align="center">
-  <a href="https://github.com/RianMorningstar/laravel-cloud-local-releases/issues">
-    <img src="https://img.shields.io/badge/GitHub-Issues-181717?logo=github" alt="Issues" height="30">
-    <br>Report Issues
+  <a href="https://github.com/RianMorningstar/laravel-cloud-local-releases/wiki">
+    <img src="https://img.shields.io/badge/Wiki-Documentation-blue?logo=github" alt="Wiki" height="30">
+    <br>Documentation
   </a>
 </td>
 </tr>
@@ -490,8 +483,7 @@ Check the [Releases page](https://github.com/RianMorningstar/laravel-cloud-local
 
 1. **Check Documentation**: Browse our [comprehensive wiki](https://github.com/RianMorningstar/laravel-cloud-local-releases/wiki)
 2. **Search Issues**: Look for [existing issues](https://github.com/RianMorningstar/laravel-cloud-local-releases/issues)
-3. **Ask Community**: Join our [Discord server](https://discord.gg/laravel-cloud-local)
-4. **Report Bugs**: [Create an issue](https://github.com/RianMorningstar/laravel-cloud-local-releases/issues/new)
+3. **Report Bugs**: [Create an issue](https://github.com/RianMorningstar/laravel-cloud-local-releases/issues/new)
 
 ## 🤝 Contributing
 
@@ -500,7 +492,7 @@ While this repository contains only the binary releases, we welcome contribution
 - **Source Code**: [laravel-cloud-local](https://github.com/RianMorningstar/laravel-cloud-local)
 - **Report Bugs**: [Create an issue](https://github.com/RianMorningstar/laravel-cloud-local-releases/issues/new)
 - **Documentation**: [Edit the wiki](https://github.com/RianMorningstar/laravel-cloud-local-releases/wiki)
-- **Feature Requests**: [Discussions](https://github.com/RianMorningstar/laravel-cloud-local-releases/discussions)
+- **Feature Requests**: [Create an issue](https://github.com/RianMorningstar/laravel-cloud-local-releases/issues/new)
 
 ## 🛡️ Security
 
@@ -556,7 +548,7 @@ in the Software without restriction...
   <a href="https://github.com/RianMorningstar/laravel-cloud-local-releases/wiki">📖 Documentation</a> •
   <a href="https://github.com/RianMorningstar/laravel-cloud-local-releases/releases">📦 Downloads</a> •
   <a href="https://github.com/RianMorningstar/laravel-cloud-local-releases/issues">🐛 Report Bug</a> •
-  <a href="https://github.com/RianMorningstar/laravel-cloud-local-releases/discussions">💡 Request Feature</a>
+  <a href="https://github.com/RianMorningstar/laravel-cloud-local-releases/issues/new">💡 Request Feature</a>
   <br><br>
   <img src="https://img.shields.io/badge/Made%20with-Go-00ADD8?style=flat-square&logo=go" alt="Made with Go">
   <img src="https://img.shields.io/badge/Powered%20by-Docker-2496ED?style=flat-square&logo=docker" alt="Powered by Docker">
